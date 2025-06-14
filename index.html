@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onPoint VA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+<body>
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/onPoint-logo.png" alt="Logo">
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+</div>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+         <h1>Running your business shouldn’t mean doing it all alone.</h1>   
+<p class="hero-title"> I handle your general tasks so you can focus on what matters most—growing your business.</p>
+            <button href="services.html" class="cta-button">Book your free consultation</button>
+           
+            </div>
+        </section>
+
+
+        <section class="about-us" id="about">
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Streamlined solutions</h2>
+                    <h3>Empowering your business growth</h3>
+              <p>
+onPoint VA is dedicated to providing top-notch virtual assistant services tailored to enhance productivity and streamline business operations. We are based in South Africa. We specialise in delivering tailored administrative solutions, expert website development and maintenance, and efficient recruitment solutions. 
+Partner with us for innovative and reliable support that drives results.</p>
+ <a href="http://">Get in Touch</a>
+
+                </div>
+                <div class="about-image">
+                    <img src="images/about-img.jpg"  alt="Professional Woman at Desk"></div>
+            </div>
+        </section>
+        <section class="services-section" id="services">
+             <h2>Streamlined Services</h2>
+                    <h3 class="services-section-subtitle">Effortless admin, web, and recruitment help.</h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="images/administrative-solutions-img.png" alt="administrative-solutions-img">
+                    <h3>Administrative Solutions</h3>
+                   <ul class="service-content">
+                    <li>Calendar & Email Management</li>
+                <li>Data Entry</li>
+                <li>Bookkeeping</li>
+                 <li>Customer Support & Communication</li>
+<li>Travel & Appointment Scheduling</li>
+                </ul>
+                </div>
+                <div class="service-card">
+                     <img src="images/web-development-img.jpg" alt="web-development-img">
+                     <h3>Website Development</h3>
+                   <ul class="service-content">
+                    <li>Custom WordPress Development</li>
+                <li>Website Updates & Edits</li>
+                <li>Plugin & Security Maintenance</li>
+                 <li>Landing Page Creation</li>
+<li>Technical Support & Troubleshooting</li>
+                </ul>
+                </div>
+                <div class="service-card">
+                     <img src="images/recruitment.jpg" alt="recruitment-img">
+                    <h3>Recruitment Solutions</h3>
+                     <ul class="service-content">
+                    <li>Job Posting & Applicant Sourcing</li>
+                <li>Candidate Screening & Shortlisting</li>
+                <li>Interview Scheduling</li>
+                 <li>Onboarding Assistance</li>
+<li>Recruitment Process Support</li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section id=
+        "contact">
+            <h2>Get in touch</h2>
+            <h3>We are here to assist you</h3>
+            <div class="form-container">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="contact">Contact Number*</label>
+                    <input type="text" id="contact" name="contact" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="message">Your Message*</label>
+                    <textarea id="message" name="message" required></textarea>
+                  </div>
+            
+                  <div class="submit-button">
+                    <button type="submit">Submit Form</button>
+                  </div>
+                </form>
+              </div>
+            <div class="contact-details">
+                <p></p>
+                <p></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 
+         <span class="year"></span> 
+         
+           @clasiqdesigns</p>
+    </footer>
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.querySelector('.year').textContent = currentYear;
+    
+      </script>
+</body>
+</html>
